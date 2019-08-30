@@ -15,3 +15,5 @@
     Then inside vim `:%!xxd`. Save it: `:%!xxd -r`, `:w`.
 
 - Open another file: `:e file-name`
+
+- See the Unicode information of current character: `ga`.

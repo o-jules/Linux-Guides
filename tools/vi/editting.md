@@ -20,6 +20,10 @@ Navigating
   - 0 start of current line
 
   - $ end of current line
+
+  - gg start of file
+
+  - G end of file
   
 Editting
 
@@ -36,6 +40,8 @@ Editting
   - c change
     - ce change until the end of the word
     - c$ change until the end of line
+  - p paste the buffered content(deleted or copied content)
+  - 
 
 History
 
