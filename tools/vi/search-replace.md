@@ -6,6 +6,8 @@ Type `/keyword` to search the matched content in the file forward, `%keyword` to
 
 And `n` to search the next one, `N` to search the previous one.
 
+`/keyword\c` search ignoring case.
+
 ## Search for matched parentheses
 
 Place the cursor at `(`, `[` or `{`, and type `%`.
