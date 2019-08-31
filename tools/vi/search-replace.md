@@ -19,3 +19,11 @@ Type `:s/old/new/g` to replace the old with new.
 - `#,#s/old/new/g` replace between line (# is the line number)
 - `:%s/old/new/g` replace all occurance in a file
 - `:%s/old/new/gc` prompt before replace all occurance
+
+## Search option
+
+- `:set ic` ignore case
+- `:set noic` disable ignore case
+- `:set hls` highlight search
+- `:set nohls` or `:nohlsearch` no highlight search
+- `:set is` incsearch show partial matches for a search phrase
