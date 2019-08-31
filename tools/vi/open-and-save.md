@@ -1,12 +1,14 @@
 # Read file
 
+## Open
+
 - Open file
 
     ```bash
     vi $file_name
     ```
 
--  Open file as binary
+- Open file as binary
 
     ```bash
     vim -b $file_name
@@ -16,4 +18,14 @@
 
 - Open another file: `:e file-name`
 
-- See the Unicode information of current character: `ga`.
+- Write the external file content to the current cursor: `:r file-name`
+
+## Save  
+
+  - :w write file
+  - :w! write forcely
+
+# Quit
+
+  - :q quit
+  - :q! quit forcely
