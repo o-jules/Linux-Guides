@@ -29,10 +29,17 @@ passwd {user-name}
 ### delete user
 
 ```bash
-userdel {user-name}
+userdel $username
+```
+
+Delete user and home directory and email etc.
+
+```bash
+userdel -r $username
 ```
 
 ### set user home dir
+
 ```
 ```
 

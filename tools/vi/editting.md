@@ -4,22 +4,57 @@
 
 ### Navigate
 
+Direction:
+
   - h left
   - j down
   - k up
   - l right
 
+Word:
+
   - w start of the next word
     e.g. 2w two words forward
-
+  - W like w, but only takes space and tab as delimiter
+    e.g. "rendez-vous" is one word for W but two for w
   - b previous word
+  - B like b(see: w and W)
 
   - e end of current word
     e.g. 2e end of the second word forward
+  - E like e(see: w and W)
+
+Line:
 
   - 0 start of current line
-
   - $ end of current line
+
+Sentence:
+  - ) end of current sentence
+  - ( start of current sentence
+
+Paragraph:
+
+  - } end of current paragraph
+  - { start of current paragarph
+
+Screen and Page:
+
+  - H first line of screen
+
+  - M middle of screen
+
+  - L last line of screen
+
+  - CTRL-d scroll down half page
+
+  - CTRL-u scroll up half page
+
+  - CTRL-f scroll down one page
+
+  - CTRL-b scroll up one page
+
+File:
 
   - gg start of file
 
@@ -45,9 +80,8 @@
 
   - g_ to the last non-blank character of current line
 
-  - CTRL-D scroll down page
-  - CTRL-U scrool up page
- 
+  - `. go the previous changed position and place the cursor there
+
 ### Edit
 
 Edit mode:

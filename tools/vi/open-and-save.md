@@ -24,6 +24,7 @@
 
   - :w write file
   - :w! write forcely
+  - `:m,nw file` save line between m and n to file
 
 # Quit
 
