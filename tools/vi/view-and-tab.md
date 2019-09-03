@@ -18,3 +18,9 @@
 - CTRL-w =, CTRL-w |, maximize window
 
 - CTRL-w +, CTRL-w -, increase window
+
+## Tree view
+
+There is a built-in Netrw util.
+
+Use `:Explorer` or `:Ex` to open Netrw. `:VExplorer` to open it in a vertical split window.

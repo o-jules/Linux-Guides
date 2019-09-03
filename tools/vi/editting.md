@@ -128,19 +128,20 @@ Change and Replace:
 
 Copy and paste:
 
-  - p paste the buffered content(deleted or copied content)
   - y yank(copy content)
     - select mode: copy the selected content
     - yw copy word
     - y$ copy till the end of line
+  - p paste the buffered content, after currernt line(deleted or copied content)
+  - P paste the content on the current line
 
 ### History
 
   - `number command-series` repeat command n times, e.g. `100iabc` insert `abc` 100 times
   - . the repeat last command, e.g. `.` repeat last command, `100.` repeat last command 100 times.
   - u undo last command
-  - u undo current line
-  - CTRL-r undo undo
+  - U undo current line
+  - CTRL-r redo(cancel) the last undo
  
 ## Select mode
 
@@ -153,3 +154,5 @@ Copy and paste:
 - u to lower case
 - J join all selected lines
 - `=` indent selected lines
+- gq text formating
+- gw text formating with no cursor movement
