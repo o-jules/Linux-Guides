@@ -15,6 +15,10 @@ UGO+RWX is a DAC model.
 
 U: User(Owner), G: Group, O: Others.
 
+- `chmod`
+
+- `umask`
+
 ## ACL
 
 ## SELinux/AppArmor

@@ -8,15 +8,33 @@
 
 Group configs are recorded in `/etc/group` file.
 
-### Add groupa
+### Add user group
 
 ```bash
 groupadd $group_name
 ```
 
-## add user to admin / super user group
+## Delete user group
 
-### add to `sudoers`
+```bash
+groupdel $group_name
+```
+
+## Update user group
+
+Using `groupmod` command.
+
+```bash
+# rename
+groupmod -n $new_name $name
+
+# change gid
+groupmod -g $name $GID
+```
+
+## Add user to admin / super user group
+
+### Add to `sudoers`
 
 edit `/etc/sudoers` files, and add:
 
