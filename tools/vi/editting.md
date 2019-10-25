@@ -78,9 +78,9 @@ File:
 
   - T the same as `t` but opposit direction
 
-  - g_ to the last non-blank character of current line
+  - `g_` to the last non-blank character of current line
 
-  - `. go the previous changed position and place the cursor there
+  - \`. go the previous changed position and place the cursor there
 
 ### Edit
 
@@ -119,9 +119,9 @@ Change and Replace:
     - c$ change until the end of line
   - C = c$
   - ~ switch case of select content(enter select mode first)
-  - gU switch current letter to upper case
+  - gU* switch letter to upper case
     gUG switch letters to upper case till the end of file 
-  - gu switch current letter to lower case
+  - gu* switch letter to lower case
     guG switch letters to lower case till the end of file
   - `<` indent left
   - `>` indent right
